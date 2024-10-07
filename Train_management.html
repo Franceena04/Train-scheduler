@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Management</title>
+    <link rel="stylesheet" href = "Train_management.css">
+</head>
+<body>
+    <div class="header">
+    <h1>Train Scheduler</h1>
+    </div>  
+    <div class="container">
+    <input type="text" placeholder="Add train number" id = 'train_input'>
+    <input type="datetime-local" placeholder="Arrival" id = 'arrival_input'>
+    <input type="datetime-local" placeholder="Departure" id = 'departure_input'>
+    <button id="Addtrain_btn">Add</button>
+    </div>
+    <div class = "train_display">
+        <ul id = "train_display_ul"></ul>
+    </div>
+    <script src = "Train_management.js"></script>
+</body>
+</html>
